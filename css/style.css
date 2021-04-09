@@ -209,6 +209,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 110px 0;
+    max-width: 100% !important;
     margin: 0 auto;
 }
 #about h3 {
@@ -263,6 +264,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding:  0;
+    max-width: 100% !important;
 }
 #services .service-media {
 	margin: 10px;
@@ -289,6 +291,7 @@ header .intro-text {
 #portfolio {
 	padding: 110px 0;
 	background: #fff;
+    max-width: 100%;
 }
 .portfolio-item {
 	margin: 15px 0;
@@ -345,7 +348,7 @@ footer {
 	padding-top: 0.5em;
     text-align: center;
     box-shadow: 0  2px lightgray;
-    max-width: 1000px;
+    max-width: 1000px 100%;
     margin: 0 auto;
     font-size: 20px;
 
