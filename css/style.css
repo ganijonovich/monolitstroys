@@ -208,9 +208,9 @@ header .intro-text {
 /* Get Touch Section */
 /* About Section */
 #about {
-	padding: 100px 0;
-    max-width: 1100px;
-	margin: 0 auto;
+	padding: 110px 0;
+	background: #f6f6f6;
+    margin: auto;
 }
 #about h3 {
 	font-size: 22px;
@@ -246,23 +246,20 @@ header .intro-text {
 	padding-right: 8px;
 }
 #about img {
-    float: left;
-	
-	max-width:500px;
-    margin: auto ;
-	margin-top: 30px;
+	padding: 20px;
+	width: 500px;
+	margin-top: 10px;
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
-}
-#about .about-text {
-    float: right;
 }
 /* Services Section */
 #services {
